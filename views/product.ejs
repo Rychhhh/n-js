@@ -1,0 +1,17 @@
+<!-- Container -->
+<h1 class="text-center">Product</h1>
+<h2 class="text-centerr">Daftar Product</h2>
+
+<% if (product.length < 1) { %>
+<p>Data masih kosong</p>
+<% } else { %>
+
+<!-- Foreach  -->
+<% product.forEach(prd => { %>
+<ul>
+  <li>Product : <%= prd.product %></li>
+  <li>Harga :<%= prd.harga %></li>
+  <li>Jumlah :<%= prd.jumlah %></li>
+</ul>
+<!-- End Foreach -->
+<% }) %> <% } %>
