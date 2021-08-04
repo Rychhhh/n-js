@@ -1,8 +1,3 @@
-// Source : https://www.youtube.com/watch?v=5VM5NGje2W8&list=PLFIM0718LjIW-XBdVOerYgKegBtD6rSfD&index=15
-// Yang ditambahkan
-// -> Line 21 ,23, dan penggantian pada about.ejs
-// Jadi jika ingin menambahkan image dan style dan js harus ditambahkan dipublic file dan tambahkan code seperti di line 20 (built-in Middleware)
-
 const express = require("express");
 const app = express();
 
